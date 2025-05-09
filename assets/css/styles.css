@@ -1,0 +1,207 @@
+:root {
+  --primary-color: #2da2ff;
+  --text-primary-color: #cccccc;
+  --text-secondary-color: #7f7f7f;
+  --card-color: #141413;
+  --main-background-color: #0d0d0d;
+  --bubble-color: rgba(36, 36, 36, 0.856);
+  --border-color: #242424;
+}
+body {
+  font-family: "Urbanist", serif;
+}
+.primary-color {
+  color: var(--primary-color);
+}
+.primary-background {
+  background-color: var(--primary-color);
+}
+.primary-text {
+  color: var(--text-primary-color);
+}
+.secondary-text {
+  color: var(--text-secondary-color);
+}
+.main-background {
+  background-color: var(--main-background-color);
+}
+.bubble-bg {
+  background-color: var(--bubble-color);
+}
+.card-bg {
+  background-color: var(--card-color);
+}
+.border-color {
+  border: var(--border-color) 2px solid;
+  border-radius: 1rem;
+}
+.border-radius {
+  border-radius: 1rem;
+}
+.bubble {
+  width: 22%;
+  border-radius: 5rem;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+.bubble-padding {
+  padding-top: 2.3rem;
+}
+.navbar {
+  padding: 0.73rem 7rem 0.69rem 7rem !important;
+}
+.nav-social i {
+  font-size: 1.6rem;
+}
+.navbar-nav {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+#hero div:first-of-type {
+  padding-top: 9.72%;
+}
+#hero div:last-of-type {
+  padding-bottom: 10rem;
+}
+#hero h1 {
+  font-size: 3.25rem;
+}
+#hero h2 {
+  font-size: 2.4rem;
+}
+#hero p {
+  font-size: 1.3rem;
+  width: 45%;
+  font-weight: 600;
+  padding-top: 1.9rem;
+  line-height: 1.7rem;
+}
+.hero-btn {
+  font-size: 1.7rem;
+}
+#about p {
+  width: 80%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+#about ul {
+  width: 65%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}
+#services h2 {
+  width: 34%;
+  font-size: 1.32rem;
+  padding-top: 1.4rem;
+  font-weight: 500;
+  padding-bottom: 1.9rem;
+}
+
+.service-margin-left {
+  margin-left: 1.25rem;
+}
+.service-margin-right {
+  margin-right: 1.25rem;
+}
+
+#services .img {
+  padding-top: 1.6rem;
+}
+
+.services-p-div {
+  margin-top: -0.5rem;
+}
+
+#services h5 {
+  font-size: 1.33rem;
+  font-weight: 700;
+}
+#services p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width: 60%;
+  font-size: 0.97rem;
+  line-height: 1.2rem;
+}
+
+#portfolio h2 {
+  width: 40%;
+  font-size: 1.32rem;
+  padding-top: 1.4rem;
+  font-weight: 500;
+  padding-bottom: 1.9rem;
+}
+
+.portfolio-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  border: var(--border-color) 4px solid;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.form-col {
+  width: 55.5%;
+}
+
+#contact h3 {
+  font-size: .9rem;
+}
+
+form {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.1rem;
+}
+
+.form-group{
+  margin-bottom: .8rem;
+}
+
+.form-control {
+  background-color: var(--bubble-color);
+  border-color: var(--border-color);
+  border-radius: 1rem;
+  color: var(--text-secondary-color);
+  padding-top: .2rem;
+  padding-bottom: .2rem;
+}
+.form-control::placeholder {
+  color: var(--text-secondary-color);
+}
+.form-control:focus {
+  background-color: var(--bubble-color);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(45, 162, 255, 0.25);
+  color: var(--primary-color);
+}
+
+.contact-details{
+  width: 70%;
+  font-size: .8rem;
+  font-weight: 700;
+  padding-top: .1rem;
+}
+.contact-details .col{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.image-col{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: -0.6rem;
+}
+
+footer .navbar {
+  padding: 0.69rem 7rem!important;
+}
